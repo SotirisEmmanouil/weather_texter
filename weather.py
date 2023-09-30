@@ -35,8 +35,8 @@ def send_weather_update():
 def send_text_message(body):
     account_sid = "twilio_sid"
     auth_token = "twilio_token"
-    from_phone_number = "3476022509"
-    to_phone_number = "3476022509"
+    from_phone_number = "number"
+    to_phone_number = "number"
 
     client = Client(account_sid, auth_token)
 
